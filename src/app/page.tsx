@@ -76,27 +76,27 @@ export default function LandingPage() {
           features={[
             {
               icon: Palette,
-              title: "UI/UX Design",              description: "Premium interface design that converts visitors into customers with strategic user experience"
+              title: "UI/UX Design",              description: "Premium interface design that converts visitors into customers with strategic user experience—average 35% increase in engagement"
             },
             {
               icon: Code,
-              title: "Website Development",              description: "High-performance web development built for speed, conversions, and long-term growth"
+              title: "Website Development",              description: "High-performance web development built for speed, conversions, and long-term growth—typical 40% faster load times"
             },
             {
               icon: Share2,
-              title: "Social Media Management",              description: "Content strategy and management that builds engaged communities and brand authority"
+              title: "Social Media Management",              description: "Content strategy and management that builds engaged communities and brand authority—proven 200% average engagement increase"
             },
             {
               icon: Target,
-              title: "Lead Generation Systems",              description: "Scalable systems that consistently attract and nurture qualified leads for your business"
+              title: "Lead Generation Systems",              description: "Scalable systems that consistently attract and nurture qualified leads for your business—proven to deliver 300+ qualified leads monthly"
             },
             {
               icon: TrendingUp,
-              title: "SEO Strategy",              description: "Search optimization that puts your brand in front of customers actively seeking your solutions"
+              title: "SEO Strategy",              description: "Search optimization that puts your brand in front of customers actively seeking your solutions—average 150% organic traffic growth"
             },
             {
               icon: BarChart3,
-              title: "Conversion Optimization",              description: "Data-driven improvements that transform traffic into revenue and sales"
+              title: "Conversion Optimization",              description: "Data-driven improvements that transform traffic into revenue and sales—average 45% increase in conversion rate"
             }
           ]}
           animationType="slide-up"
