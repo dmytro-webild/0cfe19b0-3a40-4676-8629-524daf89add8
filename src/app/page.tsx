@@ -52,7 +52,7 @@ export default function LandingPage() {
             { text: "Book Strategy Call", href: "#contact" },
             { text: "View Work", href: "#case-studies" }
           ]}
-          imageSrc="http://img.b2bpic.net/free-vector/abstract-business-card-pack-template_52683-45862.jpg?_wi=1"
+          imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Ac0O5fmrDOlz4tO7GRMH1t6Tcr/uploaded-1773255418915-ra3im4bh.jpg"
           imageAlt="Helion Era growth systems"
         />
       </div>
@@ -113,7 +113,7 @@ export default function LandingPage() {
           description="We transform challenges into systems"
           subdescription="Strategic growth operations that scale"
           icon={CheckCircle}
-          imageSrc="http://img.b2bpic.net/free-psd/template-design-with-yoga_23-2148470628.jpg?_wi=1"
+          imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Ac0O5fmrDOlz4tO7GRMH1t6Tcr/uploaded-1773255572253-afb95bqy.jpg"
           imageAlt="Helion Era solutions"
           mediaAnimation="slide-up"
           useInvertedBackground={false}
@@ -152,13 +152,13 @@ export default function LandingPage() {
           description="Projects that showcase our impact and expertise"
           blogs={[
             {
-              id: "1",              category: "UI/UX Design",              title: "Premium Brand Redesign",              excerpt: "Complete visual identity overhaul resulting in 150% increase in engagement and brand recognition",              imageSrc: "http://img.b2bpic.net/free-psd/template-design-with-yoga_23-2148470628.jpg?_wi=2",              imageAlt: "Brand redesign case study",              authorName: "Helion Era",              authorAvatar: "http://img.b2bpic.net/free-photo/black-businessman-happy-expression_1194-2533.jpg",              date: "2024"
+              id: "1",              category: "UI/UX Design",              title: "Premium Brand Redesign",              excerpt: "Complete visual identity overhaul resulting in 150% increase in engagement and brand recognition",              imageSrc: "http://img.b2bpic.net/free-psd/template-design-with-yoga_23-2148470628.jpg?_wi=2",              imageAlt: "Brand redesign case study",              authorName: "Podaslise ",              authorAvatar: "http://img.b2bpic.net/free-photo/black-businessman-happy-expression_1194-2533.jpg",              date: "2026"
             },
             {
-              id: "2",              category: "Lead Generation",              title: "Lead Generation System",              excerpt: "Built automated lead funnel generating 300+ qualified leads monthly with 40% conversion rate",              imageSrc: "http://img.b2bpic.net/free-photo/businesswoman-using-tablet_53876-14785.jpg",              imageAlt: "Lead generation results",              authorName: "Helion Era",              authorAvatar: "http://img.b2bpic.net/free-photo/portrait-smiley-businesswoman-indoors-with-arms-closed_23-2148824828.jpg",              date: "2024"
+              id: "2",              category: "Lead Generation",              title: "Lead Generation System",              excerpt: "Built automated lead funnel generating 300+ qualified leads monthly with 40% conversion rate",              imageSrc: "http://img.b2bpic.net/free-photo/businesswoman-using-tablet_53876-14785.jpg",              imageAlt: "Lead generation results",              authorName: "Podaslise ",              authorAvatar: "http://img.b2bpic.net/free-photo/portrait-smiley-businesswoman-indoors-with-arms-closed_23-2148824828.jpg",              date: "2026"
             },
             {
-              id: "3",              category: "Social Strategy",              title: "Social Media Growth Campaign",              excerpt: "Strategic content system that grew audience by 450% and established brand authority",              imageSrc: "http://img.b2bpic.net/free-photo/high-angle-women-working-together-office_23-2150062338.jpg",              imageAlt: "Social media strategy",              authorName: "Helion Era",              authorAvatar: "http://img.b2bpic.net/free-photo/she-s-ready-making-coffee_329181-2917.jpg",              date: "2024"
+              id: "3",              category: "Social Strategy",              title: "Social Media Growth Campaign",              excerpt: "Strategic content system that grew audience by 450% and established brand authority",              imageSrc: "http://img.b2bpic.net/free-photo/high-angle-women-working-together-office_23-2150062338.jpg",              imageAlt: "Social media strategy",              authorName: "Podaslise ",              authorAvatar: "http://img.b2bpic.net/free-photo/she-s-ready-making-coffee_329181-2917.jpg",              date: "2026"
             }
           ]}
           animationType="slide-up"
@@ -213,7 +213,7 @@ export default function LandingPage() {
 
       <div id="footer" data-section="footer">
         <FooterMedia
-          imageSrc="http://img.b2bpic.net/free-vector/abstract-business-card-pack-template_52683-45862.jpg?_wi=2"
+          imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Ac0O5fmrDOlz4tO7GRMH1t6Tcr/uploaded-1773255769826-ebg8ix5o.png"
           imageAlt="Helion Era footer visual"
           logoText="Helion Era"
           copyrightText="© 2024 Helion Era. All rights reserved."
