@@ -37,7 +37,7 @@ export default function LandingPage() {
             { name: "About", id: "about" }
           ]}
           button={{
-            text: "Book Strategy Call",            href: "#contact"
+            text: "Book Strategy Call",            href: "https://cal.com/abhi-rathore/15min"
           }}
           animateOnLoad={true}
         />
@@ -49,7 +49,7 @@ export default function LandingPage() {
           description="Helion Era helps brands grow through strategic UI/UX design, high-performance websites, lead generation systems, and digital growth solutions that drive real results."
           background={{ variant: "plain" }}
           buttons={[
-            { text: "Book Strategy Call", href: "#contact" },
+            { text: "Book Strategy Call", href: "https://cal.com/abhi-rathore/15min" },
             { text: "View Work", href: "#case-studies" }
           ]}
           imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Ac0O5fmrDOlz4tO7GRMH1t6Tcr/uploaded-1773255418915-ra3im4bh.jpg"
@@ -203,7 +203,7 @@ export default function LandingPage() {
           title="Ready to Build a Smarter Growth Engine?"
           description="Let's discuss your growth goals and create a strategy that drives real results. Our team is ready to help you scale."
           buttons={[
-            { text: "Schedule Discovery Call", href: "https://calendly.com" },
+            { text: "Schedule Discovery Call", href: "https://cal.com/abhi-rathore/15min" },
             { text: "View Our Services", href: "#services" }
           ]}
           background={{ variant: "plain" }}
