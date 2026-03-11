@@ -11,6 +11,8 @@ import BlogCardOne from '@/components/sections/blog/BlogCardOne';
 import TestimonialCardThirteen from '@/components/sections/testimonial/TestimonialCardThirteen';
 import ContactCTA from '@/components/sections/contact/ContactCTA';
 import FooterMedia from '@/components/sections/footer/FooterMedia';
+import FaqBase from '@/components/sections/faq/FaqBase';
+import FooterBaseCard from '@/components/sections/footer/FooterBaseCard';
 import { AlertCircle, BarChart3, CheckCircle, Code, Compass, Palette, Rocket, Share2, Target, TrendingUp, Wrench, Zap } from "lucide-react";
 
 export default function LandingPage() {
@@ -196,25 +198,35 @@ export default function LandingPage() {
         />
       </div>
 
-      <div id="contact" data-section="contact">
-        <ContactCTA
-          tag="Ready to Grow"
-          tagIcon={Zap}
-          title="Ready to Build a Smarter Growth Engine?"
-          description="Let's discuss your growth goals and create a strategy that drives real results. Our team is ready to help you scale."
-          buttons={[
-            { text: "Schedule Discovery Call", href: "https://cal.com/abhi-rathore/15min" },
-            { text: "View Our Services", href: "#services" }
+      <div id="faq" data-section="faq">
+        <FaqBase
+          title="Frequently Asked Questions"
+          description="Find answers to common questions about our services and process"
+          faqs={[
+            {
+              id: "1",              title: "How long does a typical project take?",              content: "Project timelines vary based on scope and complexity. Most brand strategy and design projects take 4-8 weeks, while development can range from 6-12 weeks depending on requirements."
+            },
+            {
+              id: "2",              title: "What industries do you specialize in?",              content: "We work with B2B SaaS companies, e-commerce brands, digital agencies, and professional services firms. Our expertise spans tech, finance, healthcare, and consumer brands looking to scale."
+            },
+            {
+              id: "3",              title: "Do you offer ongoing support after launch?",              content: "Yes, we offer post-launch support packages including analytics review, performance optimization, and continuous strategy adjustments to ensure sustained growth."
+            },
+            {
+              id: "4",              title: "What's your process for understanding our business?",              content: "We start with a comprehensive discovery phase including market analysis, competitor research, and stakeholder interviews to deeply understand your goals, challenges, and opportunities."
+            },
+            {
+              id: "5",              title: "How do you measure success?",              content: "We establish clear KPIs upfront aligned with your business goals—whether it's lead generation, conversion rates, engagement metrics, or revenue impact—and track progress throughout the project."
+            }
           ]}
-          background={{ variant: "plain" }}
+          textboxLayout="default"
           useInvertedBackground={false}
+          faqsAnimation="slide-up"
         />
       </div>
 
       <div id="footer" data-section="footer">
-        <FooterMedia
-          imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Ac0O5fmrDOlz4tO7GRMH1t6Tcr/uploaded-1773255769826-ebg8ix5o.png"
-          imageAlt="Helion Era footer visual"
+        <FooterBaseCard
           logoText="Helion Era"
           copyrightText="© 2024 Helion Era. All rights reserved."
           columns={[
